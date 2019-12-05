@@ -22,6 +22,7 @@ public class StudentEntry {
         p.setInt(3, year);
         p.setDouble(4, cpi);
         int rows = p.executeUpdate();//firing the query
+        //asdfg
         return rows >= 1;
     }
 }
